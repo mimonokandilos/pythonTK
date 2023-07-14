@@ -6,3 +6,13 @@
 
 
 # what we need is golang and python3
+
+
+
+# DEMOS
+<div align="center">
+  <br>
+  <h2>Register User</h2>
+  <img src="demos/workingSOLN.jpg" alt="WorkingSOln">
+  <br>
+</div>

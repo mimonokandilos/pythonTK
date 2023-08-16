@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	ipAddress := "172.17.16.1" // Replace this with the IP address you want to scan
+	ipAddress := "192.168.0.17" // Replace this with the IP address you want to scan
 
 	// Create the Nmap command with the desired options
 	nmapCmd := exec.Command("nmap", "-p", "1-100", ipAddress) // Replace "1-100" with the desired range of ports

@@ -28,6 +28,9 @@ def search_files():
                 button = tk.Button(root, text="Open in Finder", command=lambda fp=file_path: open_finder_location(fp))
                 search_results.window_create(tk.END, window=button)
                 search_results.insert(tk.END, "\n")
+            else:
+                #print("NOT FOUND")
+                search_results.insert(tk.END,"No Results Found!")
     else:
         search_results.insert(tk.END, f"An error occurred: {result.stderr}\n")
 
